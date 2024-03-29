@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   /* 메인 하단 흐르는 텍스트 */
-/*   let x = 0;
+  let x = 0;
   let s = 3;
 
   function motion() {
@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     $(".s6Text").css({ left: x });
   };
-  bauto = setInterval(motion, 20); */
+  bauto = setInterval(motion, 20);
 
   //오버시 멈춤
   $(".s6Text").hover(function () {
